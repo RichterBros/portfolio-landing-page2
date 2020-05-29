@@ -53,9 +53,10 @@ Card.prototype.box1Switch = function(){
         translateY: 400,
         scale: 7 ,
         backgroundColor: '#zzz',
-        duration: 3000,
+        duration: 2000,
         loop: false,
-        direction: 'normal'
+        direction: 'normal',
+        
     });
 }
 Card.prototype.box2Switch = function(){
@@ -66,7 +67,7 @@ Card.prototype.box2Switch = function(){
         translateY: 400,
         scale: 7 ,
         backgroundColor: '#zzz',
-        duration: 3000,
+        duration: 2000,
         loop: false,
         direction: 'normal',
     });
@@ -80,7 +81,7 @@ Card.prototype.box2Switch = function(){
             translateY: 400,
             scale: 7 ,
             backgroundColor: '#zzz',
-            duration: 3000,
+            duration: 2000,
             loop: false,
             direction: 'normal',
         });
@@ -94,7 +95,7 @@ Card.prototype.box2Switch = function(){
             translateY: 400,
             scale: 7 ,
             backgroundColor: '#zzz',
-            duration: 3000,
+            duration: 2000,
             loop: false,
             direction: 'normal',
         });
@@ -107,10 +108,10 @@ Card.prototype.box1Reverse = function(){
         translateY: 0,
         scale: 1 ,
         backgroundColor: '#zzz',
-        duration: 3000,
+        duration: 2000,
         loop: false,
         direction: 'normal',
-       
+        easing: 'cubicBezier(0.490, 0.060, 0.275, 0.970)'
     });
 }
 
@@ -122,9 +123,10 @@ Card.prototype.box2Reverse = function(){
         translateY: 0,
         scale: 1 ,
         backgroundColor: '#zzz',
-        duration: 3000,
+        duration: 2000,
         loop: false,
-        direction: 'normal'
+        direction: 'normal',
+        easing: 'cubicBezier(0.490, 0.060, 0.275, 0.970)'
     });
 }
 
@@ -136,9 +138,10 @@ Card.prototype.box3Reverse = function(){
         translateY: 0,
         scale: 1 ,
         backgroundColor: '#zzz',
-        duration: 3000,
+        duration: 2000,
         loop: false,
-        direction: 'normal'
+        direction: 'normal',
+        easing: 'cubicBezier(0.490, 0.060, 0.275, 0.970)'
     });
 
 Card.prototype.box4Reverse = function(){
@@ -149,9 +152,10 @@ Card.prototype.box4Reverse = function(){
         translateY: 0,
         scale: 1 ,
         backgroundColor: '#zzz',
-        duration: 3000,
+        duration: 2000,
         loop: false,
-        direction: 'normal'
+        direction: 'normal',
+        easing: 'cubicBezier(0.490, 0.060, 0.275, 0.970)'
     });
 }
 }
