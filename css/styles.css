@@ -41,14 +41,34 @@ p {
 
 .column-left{
     float: left;
+    top: 50px;
     width: 25px;
     height: 100%;
     background-color: chocolate;
     border-radius: 1px 0px 0px 1px;
 
 }
+    
+.column-top{
+    float: left;
+    width: 100px;
+    height: 25%;
+    background-color: rgb(210, 207, 30);
+    border-radius: 1px 1px 0px 0px;
+}
+.content-top{
+    position: absolute;
+    top: 25px;
+    left:25px;
+    width: 75px;
+    height: 75px;
+    border-radius: 0px 0px 1px 0px;
+    background-color: rgb(18, 102, 102);
+}
 
-img{
+.img-inner{
+    
+   
     width: 10px;
     height: 10px;
 }
