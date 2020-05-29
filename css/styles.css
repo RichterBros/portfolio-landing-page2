@@ -47,9 +47,6 @@
     margin: 20px;
 }
 
-
-
-
 .column-left{
     float: left;
     top: 50px;
@@ -57,7 +54,6 @@
     height: 100%;
     background-color: chocolate;
     border-radius: 1px 0px 0px 1px;
-
 }
     
 .column-top{
@@ -67,6 +63,7 @@
     background-color: rgb(210, 207, 30);
     border-radius: 1px 1px 0px 0px;
 }
+
 .content-top{
     position: absolute;
     top: 10px;
@@ -92,16 +89,14 @@
     position: relative;
     top: 50px;
     left:1px;
-    
     width: 70px;
     margin-bottom: 1px;
     margin-left: -1px;
     padding: 2px;
     background-color: cadetblue;
     line-height: 1.6;
-   
 }
-
+    
 .p-inner2 {
     font-size: 2px !important;;
     position: relative;
@@ -113,8 +108,6 @@
     margin-left: -1px;
     padding: 2px;
     background-color: cadetblue;
-   
-   
 }
 
 .p-inner3 {
@@ -128,13 +121,7 @@
     margin-left: -1px;
     padding: 2px;
     background-color: cadetblue;
-   
-   
 }
-
-
-
-
 
 p{
     position: relative;
@@ -172,3 +159,33 @@ ol{
     letter-spacing:10px;
   }
          
+#top-menu1{
+    position: relative;
+    top:0;
+    left:220px;
+    
+}
+
+#top-menu2{
+    position: absolute;
+    top:0;
+    left:110px;
+    ;
+}
+
+#top-menu3{
+    position: absolute;
+    top:0;
+    left:220px;
+    
+}
+
+#top-menu4{
+    position: absolute;
+    top:0;
+    left:330px;
+    
+}
+
+
+
