@@ -163,30 +163,51 @@ h1{
     position: fixed;
     top: 92px;
     }
-         
-#top-menu1{
+
+.top-menu{
     position: relative;
     top:0;
-    left:220px;
+    left:120px;
     }
 
-#top-menu2{
-    position: absolute;
-    top:0;
-    left:110px;
-    }
-
-#top-menu3{
+.top-menu1{
     position: absolute;
     top:0;
     left:220px;
+    cursor:pointer;
     }
 
-#top-menu4{
+.top-menu1:hover{
+    color:  rgb(18, 102, 102);
+    }
+
+.top-menu2{
     position: absolute;
     top:0;
     left:330px;
+    cursor:pointer;
+    }
+.top-menu2:hover {
+    color: rgb(18, 102, 102);
+    }
+.top-menu3{
+    position: absolute;
+    top:0;
+    left:440px;
+    cursor:pointer;
+    }
+    
+.top-menu3:hover {
+    color: rgb(18, 102, 102);
+    }
+    
+.top-menu4{
+    position: absolute;
+    top:0;
+    left:550px;
+    cursor:pointer;
     }
 
-
-
+.top-menu4:hover {
+    color: rgb(18, 102, 102);
+    }

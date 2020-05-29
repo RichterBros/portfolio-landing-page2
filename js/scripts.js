@@ -12,7 +12,7 @@ Card.prototype.box1Switch = function () {
     box1 = anime({
         targets: '#box1',
         translateX: 83,
-        translateY: 400,
+        translateY: 405,
         scale: 7,
         backgroundColor: '#zzz',
         duration: 2000,
@@ -27,7 +27,7 @@ Card.prototype.box2Switch = function () {
     box2 = anime({
         targets: '#box2',
         translateX: -27,
-        translateY: 400,
+        translateY: 405,
         scale: 7,
         backgroundColor: '#zzz',
         duration: 2000,
@@ -41,7 +41,7 @@ Card.prototype.box3Switch = function () {
     box2 = anime({
         targets: '#box3',
         translateX: -137,
-        translateY: 400,
+        translateY: 405,
         scale: 7,
         backgroundColor: '#zzz',
         duration: 2000,
@@ -55,7 +55,7 @@ Card.prototype.box4Switch = function () {
     box2 = anime({
         targets: '#box4',
         translateX: -247,
-        translateY: 400,
+        translateY: 405,
         scale: 7,
         backgroundColor: '#zzz',
         duration: 2000,
@@ -126,6 +126,13 @@ Card.prototype.box4Reverse = function () {
 
 $(document).ready(function () {
 
+    $(".top-menu1").click(function () {
+        card.box1Switch();
+        card.box2Reverse();
+        card.box3Reverse();
+        card.box4Reverse();
+    });
+    
     $("#box1").click(function () {
         card.box1Switch();
         card.box2Reverse();
@@ -140,6 +147,13 @@ $(document).ready(function () {
         card.box4Reverse();
     });
 
+    $(".top-menu2").click(function () {
+        card.box2Switch();
+        card.box3Reverse();
+        card.box1Reverse();
+        card.box4Reverse();
+    });
+
     $("#box3").click(function () {
         card.box3Switch();
         card.box1Reverse();
@@ -147,7 +161,21 @@ $(document).ready(function () {
         card.box4Reverse();
     });
 
+    $(".top-menu3").click(function () {
+        card.box3Switch();
+        card.box1Reverse();
+        card.box2Reverse();
+        card.box4Reverse();
+    });
+
     $("#box4").click(function () {
+        card.box4Switch();
+        card.box1Reverse();
+        card.box2Reverse();
+        card.box3Reverse();
+    });
+
+    $(".top-menu4").click(function () {
         card.box4Switch();
         card.box1Reverse();
         card.box2Reverse();
