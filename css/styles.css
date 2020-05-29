@@ -2,7 +2,7 @@
     position: fixed;
     height: 100px;
     width: 100px;
-    left: 0px;
+    left: 200px;
     top: 0px;
     
     background-color: blue;
@@ -15,7 +15,7 @@
     position: fixed;
     height: 100px;
     width: 100px;
-    left: 110px;
+    left: 310px;
     top: 0px;
     background-color: red;
     display:inline-block;
@@ -27,7 +27,7 @@
     position: fixed;
     height: 100px;
     width: 100px;
-    left: 220px;
+    left: 420px;
     top: 0px;
     background-color: green;
     display:inline-block;
@@ -39,7 +39,7 @@
     position: fixed;
     height: 100px;
     width: 100px;
-    left: 330px;
+    left: 530px;
     top: 0px;
     background-color: green;
     display:inline-block;
@@ -120,7 +120,7 @@
 .p-inner3 {
     font-size: 2px !important;
     position: relative;
-    top: 30px;
+    top: 10px;
     left:1px;
     height: 7px;
     width: 70px;
@@ -152,10 +152,10 @@ a {
 
 
 ol{
-    position: fixed;
+    position: relative;
         font-size: 2px !important;
-        top: 73px;
-    left:-20px;
+        top: 38px;
+    left:-36px;
      } 
  
      h1{
@@ -164,3 +164,11 @@ ol{
             top: 50px;
         left:18px;
          }
+#top{
+
+    height: 25px;
+}
+#space{
+    letter-spacing:10px;
+  }
+         
