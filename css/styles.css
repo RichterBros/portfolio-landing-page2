@@ -4,11 +4,11 @@
     width: 100px;
     left: 200px;
     top: 0px;
-    
     background-color: blue;
     display:inline-block;
     border-radius: 1px;
     margin: 20px;
+    cursor:pointer;
 }
 
 #box2{
@@ -21,6 +21,7 @@
     display:inline-block;
     border-radius: 1px;
     margin: 20px;
+    cursor:pointer;
 }
 
 #box3{
@@ -33,6 +34,7 @@
     display:inline-block;
     border-radius: 1px;
     margin: 20px;
+    cursor:pointer;
 }
 
 #box4{
@@ -45,6 +47,7 @@
     display:inline-block;
     border-radius: 1px;
     margin: 20px;
+    cursor:pointer;
 }
 
 .column-left{
@@ -54,6 +57,7 @@
     height: 100%;
     background-color: chocolate;
     border-radius: 1px 0px 0px 1px;
+    cursor:pointer;
 }
     
 .column-top{
@@ -145,18 +149,22 @@ ol{
     left:-36px;
      } 
  
-     h1{
-        position: fixed;
-            font-size: 2px !important;
-            top: 50px;
-        left:18px;
-         }
+h1{
+position: absolute;
+    font-size: 2px !important;
+    top: 40px;
+left:3px;
+}
+
 #top{
 
-    height: 25px;
+height: 25px;
 }
+
 #space{
     letter-spacing:10px;
+    position: fixed;
+    top: 92px;
   }
          
 #top-menu1{
@@ -170,7 +178,7 @@ ol{
     position: absolute;
     top:0;
     left:110px;
-    ;
+    
 }
 
 #top-menu3{

@@ -49,7 +49,7 @@ Card.prototype.box1Switch = function(){
 
     box1 = anime({
         targets: '#box1',
-        translateX: 550,
+        translateX: 83,
         translateY: 400,
         scale: 7 ,
         backgroundColor: '#zzz',
@@ -63,7 +63,7 @@ Card.prototype.box2Switch = function(){
     
     box2 = anime({
         targets: '#box2',
-        translateX: 550,
+        translateX: -27,
         translateY: 400,
         scale: 7 ,
         backgroundColor: '#zzz',
@@ -77,7 +77,7 @@ Card.prototype.box2Switch = function(){
     
         box2 = anime({
             targets: '#box3',
-            translateX: 550,
+            translateX: -137,
             translateY: 400,
             scale: 7 ,
             backgroundColor: '#zzz',
@@ -91,7 +91,7 @@ Card.prototype.box2Switch = function(){
     
         box2 = anime({
             targets: '#box4',
-            translateX: 550,
+            translateX: -247,
             translateY: 400,
             scale: 7 ,
             backgroundColor: '#zzz',
