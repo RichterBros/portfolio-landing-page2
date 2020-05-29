@@ -4,18 +4,28 @@ $(document).ready(function(){
         card.box1Switch();
         card.box2Reverse();
         card.box3Reverse();
+        card.box4Reverse();
     });
     
     $( "#box2" ).click(function() {
          card.box2Switch();
          card.box3Reverse();
          card.box1Reverse();
+         card.box4Reverse();
     });
     
     $( "#box3" ).click(function() {
         card.box3Switch();
         card.box1Reverse();
         card.box2Reverse();
+        card.box4Reverse();
+    });
+
+    $( "#box4" ).click(function() {
+        card.box4Switch();
+        card.box1Reverse();
+        card.box2Reverse();
+        card.box3Reverse();
     });
     
     
@@ -74,7 +84,21 @@ Card.prototype.box2Switch = function(){
             loop: false,
             direction: 'normal',
         });
-    }   
+    }
+    
+    Card.prototype.box4Switch = function(){
+    
+        box2 = anime({
+            targets: '#box4',
+            translateX: 550,
+            translateY: 400,
+            scale: 7 ,
+            backgroundColor: '#zzz',
+            duration: 3000,
+            loop: false,
+            direction: 'normal',
+        });
+    } 
 Card.prototype.box1Reverse = function(){
     
     anime({
@@ -85,7 +109,8 @@ Card.prototype.box1Reverse = function(){
         backgroundColor: '#zzz',
         duration: 3000,
         loop: false,
-        direction: 'normal'
+        direction: 'normal',
+       
     });
 }
 
@@ -115,4 +140,18 @@ Card.prototype.box3Reverse = function(){
         loop: false,
         direction: 'normal'
     });
+
+Card.prototype.box4Reverse = function(){
+
+    anime({
+        targets: '#box4',
+        translateX: 0,
+        translateY: 0,
+        scale: 1 ,
+        backgroundColor: '#zzz',
+        duration: 3000,
+        loop: false,
+        direction: 'normal'
+    });
+}
 }
