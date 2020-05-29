@@ -35,9 +35,8 @@
     margin: 20px;
 }
 
-p {
-    font-size: 2px;
-}
+
+
 
 .column-left{
     float: left;
@@ -64,11 +63,35 @@ p {
     height: 75px;
     border-radius: 0px 0px 1px 0px;
     background-color: rgb(18, 102, 102);
+    padding: 1px;
 }
 
 .img-inner{
-    
+    position: absolute;
+    top: 1px;
+    left:1px;
+    width: 50px;
+    height: auto;
+    border-radius: 1px;
+}
+
+.p-inner {
+    font-size: 2px;
+    position: relative;
+    top: 35px;
+    left:1px;
+    border-width: 5px; border-color: rgb(160,160,255);
+    width: 55px;
+   margin: -1px;
+    padding: 2px;
+    background-color: cadetblue;
+    line-height: 1.6;
    
-    width: 10px;
-    height: 10px;
+}
+p{
+    position: relative;
+    top: 5px;
+    left:5px;
+    font-size: 5px;
+    padding:5px;
 }
