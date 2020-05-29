@@ -118,11 +118,11 @@
 }
 
 .p-inner3 {
-    font-size: 2px !important;;
+    font-size: 2px !important;
     position: relative;
     top: 30px;
     left:1px;
-    height: 10px;
+    height: 7px;
     width: 70px;
     margin-bottom: 1px;
     margin-left: -1px;
@@ -154,7 +154,13 @@ a {
 ol{
     position: fixed;
         font-size: 2px !important;
-        top: 70px;
+        top: 73px;
     left:-20px;
      } 
  
+     h1{
+        position: fixed;
+            font-size: 2px !important;
+            top: 50px;
+        left:18px;
+         }
